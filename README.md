@@ -1,4 +1,4 @@
-# ShellPhish v1.9
+# ShellPhish v2.0
 ## Author: github.com/thelinuxchoice
 ## Twitter: twitter.com/linux_choice
 ## Editor & Uploader: kNIGHT(github.com/cyberknight)
@@ -21,7 +21,6 @@ Usage of Shellphish for attacking targets without prior mutual consent is illega
 ```
 git clone https://github.com/Ethical-Hacking-Zone/shellphish
 cd shellphish
-unzip sites.zip
 bash shellphish.sh
 ```
 
