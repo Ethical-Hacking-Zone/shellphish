@@ -42,7 +42,7 @@ clear
 
 else
         unzip sites.zip
-echo "\e[1;93m Starting Tool...."
+echo -e "\e[1;93m Starting Tool...."
 sleep 3
 clear
 
