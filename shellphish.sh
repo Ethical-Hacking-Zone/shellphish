@@ -176,7 +176,7 @@ echo -e "\e[1;36m                                                               
 printf "\n"
 printf "\e[1;32m       .:.:.\e[0m\e[1;95m Phishing Tool coded by:  @linux_choice \e[0m\e[1;32m.:.:.\e[0m\n"
 printf "\e[1;32m       .:.:.\e[0m\e[1;95m Re-Edited & Re-Uploaded By:  kNIGHT From @Ethical-Hacking-Zone \e[0m\e[1;32m.:.:.\e[0m\n"
-printf "\e[1;32m       .:.:.\e[0m\e[1;95m Credits To:  @SLICK-PUNK For Having The Script Before Repo Was Banned \e[0m\e[1;32m.:.:.\e[0m\n"
+printf "\e[1;32m       .:.:.\e[0m\e[1;95m Credits To:  @SLICK-PUNK For Having The Script Before Repo Was Deleted \e[0m\e[1;32m.:.:.\e[0m\n"
 printf "\n"
 printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
 printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by ShellPhish ::\e[0m\n"
