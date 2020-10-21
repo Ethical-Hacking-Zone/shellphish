@@ -388,12 +388,12 @@ printf "\e[1;36m[\e[1;92m*\e[1;36m]\e[1;34m Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
 if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
-wget --no-check-certificate https://bin.equinox.io/a/e93TBaoFgZw/ngrok-2.2.8-linux-arm.zip > /dev/null 2>&1
+wget --no-check-certificate https://bin.equinox.io/a/axBh4yEKTBu/ngrok-2.1.18-linux-arm.zip > /dev/null 2>&1
 
-if [[ -e ngrok-2.2.8-linux-arm.zip ]]; then
-unzip ngrok-2.2.8-linux-arm.zip > /dev/null 2>&1
+if [[ -e ngrok-2.1.18-linux-arm.zip ]]; then
+unzip ngrok-2.1.18-linux-arm.zip > /dev/null 2>&1
 chmod +x ngrok
-rm -rf ngrok-2.2.8-linux-arm.zip
+rm -rf ngrok-2.1.18-linux-arm.zip
 else
 printf "\e[1;93m[!] Download error... Termux, run:\e[0m\e[1;77m pkg install wget\e[0m\n"
 exit 1
@@ -402,11 +402,11 @@ fi
 
 
 else
-wget --no-check-certificate https://bin.equinox.io/a/e93TBaoFgZw/ngrok-2.2.8-linux-arm.zip > /dev/null 2>&1 
-if [[ -e ngrok-2.2.8-linux-386.zip ]]; then
-unzip ngrok-2.2.8-linux-386.zip > /dev/null 2>&1
+wget --no-check-certificate https://bin.equinox.io/a/axBh4yEKTBu/ngrok-2.1.18-linux-arm.zip > /dev/null 2>&1 
+if [[ -e ngrok-2.1.18-linux-arm.zip ]]; then
+unzip ngrok-2.1.18-linux-arm.zip > /dev/null 2>&1
 chmod +x ngrok
-rm -rf ngrok-2.2.8-linux-386.zip
+rm -rf ngrok-2.1.18-linux-arm.zip
 else
 printf "\e[1;93m[!] Download error... \e[0m\n"
 exit 1
