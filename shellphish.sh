@@ -167,8 +167,8 @@ fi
 
 banner() {
 
-toilet -f pagga -F border:gay ShellPhish
-echo -e "\e[1;36m                                                                         V2.0 \e[0m"
+toilet -f smbraille -F border:gay ShellPhish
+echo -e "\e[1;36m                                                                         V2.1 \e[0m"
 printf "\n"
 printf "\e[1;32m       .:.:.\e[0m\e[1;95m Phishing Tool coded by:  @linux_choice \e[0m\e[1;32m.:.:.\e[0m\n"
 printf "\e[1;32m       .:.:.\e[0m\e[1;95m Re-Edited & Re-Uploaded By:  kNIGHT From @Ethical-Hacking-Zone \e[0m\e[1;32m.:.:.\e[0m\n"
