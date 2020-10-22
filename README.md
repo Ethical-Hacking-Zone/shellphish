@@ -1,4 +1,4 @@
-# ShellPhish v2.0
+# ShellPhish v2.1
 ## Author: github.com/thelinuxchoice
 ## Twitter: twitter.com/linux_choice
 ## Editor & Uploader: kNIGHT(github.com/cyberknight777)
