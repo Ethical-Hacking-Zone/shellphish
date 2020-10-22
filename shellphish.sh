@@ -1,4 +1,4 @@
-# ShellPhish v2.0
+# ShellPhish v2.1
 # Coded by: linux_choice (You dont become a coder by just changing the credits)
 # Re-Edited & Re-Uploaded By: kNIGHT
 # Github: https://github.com/Ethical-Hacking-Zone/locator
@@ -15,9 +15,7 @@ if [[ $ostype -eq 'Y' || $ostype -eq 'y' ]]; then
 echo -e "\e[4;96m Installing Dependencies.... \e[0m"
 sleep 0.5
 echo -e "\e[1;95m"
-apt install openssh wget curl php toilet figlet unzip exa ruby
-gem install lolcat
-wget -O $PREFIX/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+apt install openssh curl php toilet figlet unzip
 touch plugins.installed
 echo -e "\e[3;96m Dependencies Installed!"
 sleep 2
@@ -26,9 +24,7 @@ elif [[ $ostype -eq 'N' || $ostype -eq 'n' ]]; then
 echo -e "\e[4;95m Installing Dependencies.... \e[0m"
 sleep 0.5
 echo -e "\[1;95m"
-sudo apt install wget curl php toilet figlet unzip ruby
-gem install lolcat
-wget -O $PREFIX/usr/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+sudo apt install curl php toilet figlet unzip
 touch plugins.installed
 echo -e "\e[3;96m Dependencies Installed!"
 sleep 2
@@ -171,7 +167,7 @@ fi
 
 banner() {
 
-toilet -f ASCII-Shadow -F border:metal ShellPhish
+toilet -f pagga -F border:gay ShellPhish
 echo -e "\e[1;36m                                                                         V2.0 \e[0m"
 printf "\n"
 printf "\e[1;32m       .:.:.\e[0m\e[1;95m Phishing Tool coded by:  @linux_choice \e[0m\e[1;32m.:.:.\e[0m\n"
